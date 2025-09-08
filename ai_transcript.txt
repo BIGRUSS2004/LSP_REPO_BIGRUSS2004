@@ -1,0 +1,23 @@
+Tool: ChatGPT 
+Context: I'm new to Java and used AI to help me start and structure assignment 2 correctly.
+
+Summary: How I used AI
+I used ChatGPT to confirm I was working in the correct Git Repo and show how to clone/pull properly. I also used Chat to set up the required package structure and the project folder, and provided a starter ETL implementation and helped debug early issues.
+
+Prompts I asked:
+Is my code in the original repo
+How could I approach this assignment to start the code
+Can you provide code snippets of different examples to tackle the assignment?
+
+ AI response (excerpt):
+"Create src/org/howard/edu/lsp/assignment2/ETLPipeline.java with
+'package org.howard.edu.lsp.assignment2;'. Compile/run from the project root:
+ javac -d bin src/org/howard/edu/lsp/assignment2/ETLPipeline.java
+ java -cp bin org.howard.edu.lsp.assignment2.ETLPipeline
+Place CSVs in data/ to use relative paths."
+
+How I used/modified it:
+ Used the structure, compile/run steps, and ETL flow (uppercase → discount → recategorize → price range).
+ Modified the header/empty-case logic to return List<String[]> consistently.
+ Kept BigDecimal HALF_UP rounding and added minor comments to fit my style.
+
