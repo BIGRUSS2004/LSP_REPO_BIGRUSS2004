@@ -1,47 +1,6 @@
 Tool: ChatGPT 
 
-Context: I'm new to Java and used AI to help me start and structure assignment 2 correctly.
-
-
-
-Summary: How I used AI
-
-I used ChatGPT to confirm I was working in the correct Git Repo and show how to clone/pull properly. I also used Chat to set up the required package structure and the project folder, and provided a starter ETL implementation and helped debug early issues.
-
-
-
-Prompts I asked:
-
-Is my code in the original repo
-
-How could I approach this assignment to start the code
-
-Can you provide code snippets of different examples to tackle the assignment?
-
-
-
-&nbsp;AI response (excerpt):
-
-"Create src/org/howard/edu/lsp/assignment2/ETLPipeline.java with
-
-'package org.howard.edu.lsp.assignment2;'. Compile/run from the project root:
-
-&nbsp;javac -d bin src/org/howard/edu/lsp/assignment2/ETLPipeline.java
-
-&nbsp;java -cp bin org.howard.edu.lsp.assignment2.ETLPipeline
-
-Place CSVs in data/ to use relative paths."
-
-
-
-How I used/modified it:
-
-&nbsp;Used the structure, compile/run steps, and ETL flow (uppercase → discount → recategorize → price range).
-
-&nbsp;Modified the header/empty-case logic to return List<String\[]> consistently.
-
-&nbsp;Kept BigDecimal HALF\_UP rounding and added minor comments to fit my style.
-
+Assignment 2 focused on implementing a basic ETL pipeline in a largely procedural way, emphasizing correct data extraction, transformation, and loading but with most of the logic contained in a single flow. Assignment 3 built on that foundation by requiring an object-oriented design, where the ETL process was broken into distinct classes and packages to improve modularity, encapsulation, and maintainability. This shift from a linear script to a class-based architecture introduced new challenges—such as deciding on appropriate abstractions, managing class interactions, and ensuring low coupling—but also demonstrated how thoughtful design makes testing, extending, and reusing code much easier. Overall, the experience highlighted the difference between simply writing code that works and engineering a flexible, well-structured system.
 
 
 
