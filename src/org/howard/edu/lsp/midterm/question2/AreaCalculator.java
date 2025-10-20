@@ -8,7 +8,7 @@ public class AreaCalculator {
     }
 
     //Rectangle Area
-    public static double area(doluble,width, double height){
+    public static double area(double width, double height){
         validatePositive(width);
         validatePositive(height);
         return width * height;
