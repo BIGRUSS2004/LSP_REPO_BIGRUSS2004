@@ -1,4 +1,10 @@
-﻿{
-  "java.project.sourcePaths": ["src"],
-  "java.configuration.updateBuildConfiguration": "automatic"
+{
+  "java.project.sourcePaths": [
+    "src"
+  ],
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.project.referencedLibraries": [
+    "lib\\junit-platform-console-standalone-1.10.2.jar",
+    "c:\\Users\\rjlan\\.vscode\\LSP_REPO_BIGRUSS2004\\LSP_REPO_BIGRUSS2004\\lib\\junit-platform-console-standalone-1.10.2.jar"
+  ]
 }

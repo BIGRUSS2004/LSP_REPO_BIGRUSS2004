@@ -1,0 +1,4 @@
+Device is abstract to share core logic while preventing direct instantiation. 
+Networked and BatteryPowered interfaces add optional behaviors that concrete classes can implement independently. 
+This is not multiple inheritance of implementation; Java allows only one superclass, so we achieve multiple inheritance of type through interfaces. 
+The design promotes flexibility and code reuse without the issues of deep inheritance trees.
